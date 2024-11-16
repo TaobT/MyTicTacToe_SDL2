@@ -141,6 +141,7 @@
     <ClInclude Include="ActorFactory.h" />
     <ClInclude Include="ButtonComponent.h" />
     <ClInclude Include="Debug.h" />
+    <ClInclude Include="DebugFlags.h" />
     <ClInclude Include="GameApp.h" />
     <ClInclude Include="ActorComponent.h" />
     <ClInclude Include="PositionComponent.h" />
@@ -153,6 +154,7 @@
   <ItemGroup>
     <ClCompile Include="Actor.cpp" />
     <ClCompile Include="ActorFactory.cpp" />
+    <ClCompile Include="ButtonComponent.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameApp.cpp" />
     <ClCompile Include="RenderableComponent.cpp" />

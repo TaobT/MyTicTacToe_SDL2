@@ -81,6 +81,9 @@
     <ClInclude Include="RenderableComponent.h">
       <Filter>Archivos de encabezado\Components</Filter>
     </ClInclude>
+    <ClInclude Include="DebugFlags.h">
+      <Filter>Archivos de encabezado\Debug</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -102,6 +105,9 @@
       <Filter>Archivos de origen\Scene</Filter>
     </ClCompile>
     <ClCompile Include="RenderableComponent.cpp">
+      <Filter>Archivos de origen\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonComponent.cpp">
       <Filter>Archivos de origen\Components</Filter>
     </ClCompile>
   </ItemGroup>

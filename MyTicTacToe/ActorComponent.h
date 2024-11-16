@@ -7,7 +7,7 @@
 
 
 typedef std::type_index ComponentId;
-typedef class Actor* ActorPtr;
+typedef class Actor* ActorPtr; //Scene is incharged of the Actor's memory management
 
 class ActorComponent {
 private:

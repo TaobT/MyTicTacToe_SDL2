@@ -40,4 +40,6 @@ public:
 		}
 		return nullptr;
 	}
+
+	ActorType GetType(void) const { return type; }
 };

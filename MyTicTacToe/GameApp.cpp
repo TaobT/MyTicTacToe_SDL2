@@ -2,6 +2,7 @@
 
 #include "RenderableComponent.h"
 #include "PositionComponent.h"
+#include "ButtonComponent.h"
 
 void GameApp::Initialize(const char* title, int width, int height) {
 
@@ -29,6 +30,7 @@ void GameApp::Initialize(const char* title, int width, int height) {
 	auto actor = std::shared_ptr<Actor>(actorFactory.CreateActor("TestingActor"));
 	actor->AddComponent(new PositionComponent());
 	actor->AddComponent(new RenderableComponent());
+	actor->AddComponent(new ButtonComponent(Vector2(100, 100)));
 	actor->GetComponent<PositionComponent>()->SetPosition(Vector2(100, 100));
 
 	Scene* scene = new Scene();
